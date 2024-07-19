@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*--------------------------------------------Colors*/
+
+.bg-color-name-title {
+    background-color: #8a0606;  
+}
+
+.ui-menu-color-home {
+    background-color: #22e6b8;
+}
+
+.ui-menu-color-resume {
+    background-color: #8a0606;
+}
+
+.ui-menu-color-contact {
+    background-color: #1d7b01;
+}
+
+.ui-menu-color-download {
+    background-color: #525252;
+}
+
+header {
+    margin: 0;
+}
+
+/* .logo {
+    background: url("../images/tezz.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+} */
+.logo img {
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 360px;
+    width: 450px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.heading {
+    margin-left: 50px;
+
+}
+
+.name {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.title {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+    font-family: "Kanit", sans-serif;
+}
