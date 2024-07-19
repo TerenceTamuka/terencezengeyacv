@@ -26,26 +26,13 @@ header {
     margin: 0;
 }
 
-/* .logo {
-    background: url("../images/tezz.jpg");
+
+.logo {
+    background: url("../images/terry.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-} */
-.logo img {
-    
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* position: absolute; */
-    top: 0;
-    left: 0;
-    height: 360px;
-    width: 450px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -58,7 +45,7 @@ header {
 
 .name {
     font-family: "Josefin Sans", sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
     color: #fff;
@@ -66,7 +53,7 @@ header {
 
 .title {
     font-family: "Kanit", sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
