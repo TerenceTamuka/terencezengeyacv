@@ -28,7 +28,7 @@ header {
 
 
 .logo {
-    background: url("../images/terry.jpg");
+    background: url("/images/teza.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,6 +68,10 @@ header {
     font-size: 0;
 }
 
+#nav {
+    margin:0;
+}
+
 #nav li {
     font-size: 14px;
     padding: 0;
@@ -104,4 +108,26 @@ header {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 2px;
+}
+
+/*-------------Hover classes--------*/
+
+.hvr-sweep-to-top:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+
+.hvr-sweep-to-right:before {
+    background: rgba(0, 0, 0, 0.3);
+    height: 120px;
+}
+
+.hvr-sweep-to-left:before {
+    background: rgba(0, 0, 0, 0.4);
+    height: 120px;
+}
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.5);
+    height: 120px;
 }
