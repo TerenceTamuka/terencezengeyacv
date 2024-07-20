@@ -47,7 +47,8 @@ h4 {
 
 .inline-block {
     display: inline-block;
-    
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
 }
 
 .row-table {
@@ -233,4 +234,15 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+/*-----------------Three Reasons styles-----*/
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #292C36;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
