@@ -294,3 +294,26 @@ p {
     font-weight: 400;
     text-align: justify;
 }
+
+/*--------Skills styles-----*/
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    font-family: "Kanit", sans-serif;
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 12px 30px 12px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 40px 20px;
+
+}
