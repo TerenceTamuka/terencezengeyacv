@@ -8,7 +8,10 @@
 
 .bg-color-three-reasons {
     background: #fff;
-    
+}
+
+.bg-color-personal-info {
+    background-color: #899599;
 }
 
 .ui-menu-color-home {
@@ -33,6 +36,7 @@ h2,
 h3,
 h4 {
     margin: 0;
+    font-family: "Kanit", sans-serif;
 }
 
 .uppercase {
