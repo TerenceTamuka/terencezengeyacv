@@ -18,6 +18,10 @@
     background-color: #933F59;
 }
 
+.bg-color-contact {
+    background-color: #fff;
+}
+
 .ui-menu-color-home {
     background-color: #887B7F;
 }
@@ -369,4 +373,40 @@ p {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+/*------------------------Contact form styles----*/
+
+.contact-heading {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+    font-family: "Kanit", sans-serif;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #292C36;
+}
+
+
+/*---------Media Query on Form sizing for different device screen size------*/
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
