@@ -262,6 +262,14 @@ footer {
     margin-bottom: 15px;
 }
 
+.copyright {
+    margin-top: auto;
+    padding: 10px 0;
+    font-family: "Josefin Sans", sans-serif;
+    bottom: 0;
+    text-align: center;
+}
+
 /*--------------------Personal Info styles-----*/
 
 .personal-info-item {
